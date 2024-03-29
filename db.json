@@ -2,60 +2,183 @@
     "movies": [
       {
         "id": 1,
-        "title": "Inception",
+        "title": "Iron Man",
         "genre": ["Action", "Adventure", "Sci-Fi"],
-        "director": "Christopher Nolan",
-        "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
-        "plotSummary": "A thief who enters the dreams of others to steal their secrets from their subconscious.",
-        "runtime": 148,
-        "userRatings": [
-          {
-            "userId": 1,
-            "rating": 5
-          },
-          {
-            "userId": 2,
-            "rating": 4
-          }
-        ]
+        "director": "Jon Favreau",
+        "actors": ["Robert Downey Jr.", "Gwyneth Paltrow", "Jeff Bridges"],
+        "plotSummary": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+        "runtime": 126
       },
       {
         "id": 2,
-        "title": "The Shawshank Redemption",
-        "genre": ["Drama"],
-        "director": "Frank Darabont",
-        "actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
-        "plotSummary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        "runtime": 142,
-        "userRatings": [
-          {
-            "userId": 1,
-            "rating": 5
-          },
-          {
-            "userId": 3,
-            "rating": 4.5
-          }
-        ]
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "genre": ["Adventure", "Family", "Fantasy"],
+        "director": "Chris Columbus",
+        "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
+        "plotSummary": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+        "runtime": 152
       },
       {
         "id": 3,
-        "title": "The Dark Knight",
-        "genre": ["Action", "Crime", "Drama"],
-        "director": "Christopher Nolan",
-        "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
-        "plotSummary": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
-        "runtime": 152,
-        "userRatings": [
-          {
-            "userId": 2,
-            "rating": 5
-          },
-          {
-            "userId": 3,
-            "rating": 4.5
-          }
-        ]
+        "title": "Guardians of the Galaxy",
+        "genre": ["Action", "Adventure", "Comedy"],
+        "director": "James Gunn",
+        "actors": ["Chris Pratt", "Zoe Saldana", "Dave Bautista"],
+        "plotSummary": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
+        "runtime": 121
+      },
+      {
+        "id": 4,
+        "title": "The Lion King",
+        "genre": ["Animation", "Adventure", "Drama"],
+        "director": "Roger Allers, Rob Minkoff",
+        "actors": ["Matthew Broderick", "Jeremy Irons", "James Earl Jones"],
+        "plotSummary": "A lion cub prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to later accept in adulthood his identity and his responsibilities.",
+        "runtime": 88
+      },
+      {
+        "id": 5,
+        "title": "Thor",
+        "genre": ["Action", "Adventure", "Fantasy"],
+        "director": "Kenneth Branagh",
+        "actors": ["Chris Hemsworth", "Natalie Portman", "Tom Hiddleston"],
+        "plotSummary": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+        "runtime": 115
+      },
+      {
+        "id": 6,
+        "title": "Toy Story",
+        "genre": ["Animation", "Adventure", "Comedy"],
+        "director": "John Lasseter",
+        "actors": ["Tom Hanks", "Tim Allen", "Don Rickles"],
+        "plotSummary": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+        "runtime": 81
+      },
+      {
+        "id": 7,
+        "title": "The Avengers",
+        "genre": ["Action", "Adventure", "Sci-Fi"],
+        "director": "Joss Whedon",
+        "actors": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
+        "plotSummary": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+        "runtime": 143
+      },
+      {
+        "id": 8,
+        "title": "Harry Potter and the Chamber of Secrets",
+        "genre": ["Adventure", "Family", "Fantasy"],
+        "director": "Chris Columbus",
+        "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
+        "plotSummary": "An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.",
+        "runtime": 161
+      },
+      {
+        "id": 9,
+        "title": "Captain America: The Winter Soldier",
+        "genre": ["Action", "Adventure", "Sci-Fi"],
+        "director": "Anthony Russo, Joe Russo",
+        "actors": ["Chris Evans", "Scarlett Johansson", "Sebastian Stan"],
+        "plotSummary": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
+        "runtime": 136
+      },
+      {
+        "id": 10,
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "genre": ["Adventure", "Family", "Fantasy"],
+        "director": "Alfonso Cuarón",
+        "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
+        "plotSummary": "It's Harry's third year at Hogwarts; not only does he have a new 'Defense Against the Dark Arts' teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
+        "runtime": 142
+      },
+      {
+        "id": 11,
+        "title": "Harry Potter and the Goblet of Fire",
+        "genre": ["Adventure", "Family", "Fantasy"],
+        "director": "Mike Newell",
+        "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
+        "plotSummary": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+        "runtime": 157
+      },
+      {
+        "id": 12,
+        "title": "Harry Potter and the Order of the Phoenix",
+        "genre": ["Adventure", "Family", "Fantasy"],
+        "director": "David Yates",
+        "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
+        "plotSummary": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+        "runtime": 138
+      },
+      {
+        "id": 13,
+        "title": "Harry Potter and the Half-Blood Prince",
+        "genre": ["Adventure", "Family", "Fantasy"],
+        "director": "David Yates",
+        "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
+        "plotSummary": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as 'the property of the Half-Blood Prince' and begins to learn more about Lord Voldemort's dark past.",
+        "runtime": 153
+      },
+      {
+        "id": 14,
+        "title": "Harry Potter and the Deathly Hallows: Part 1",
+        "genre": ["Adventure", "Family", "Fantasy"],
+        "director": "David Yates",
+        "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
+        "plotSummary": "As Harry, Ron, and Hermione race against time and evil to destroy the Horcruxes, they uncover the existence of the three most powerful objects in the wizarding world: the Deathly Hallows.",
+        "runtime": 146
+      },
+      {
+        "id": 15,
+        "title": "Harry Potter and the Deathly Hallows: Part 2",
+        "genre": ["Adventure", "Family", "Fantasy"],
+        "director": "David Yates",
+        "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
+        "plotSummary": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+        "runtime": 130
+      },
+      {
+        "id": 16,
+        "title": "Thor: Ragnarok",
+        "genre": ["Action", "Adventure", "Comedy"],
+        "director": "Taika Waititi",
+        "actors": ["Chris Hemsworth", "Tom Hiddleston", "Cate Blanchett"],
+        "plotSummary": "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+        "runtime": 130
+      },
+      {
+        "id": 17,
+        "title": "The Little Mermaid",
+        "genre": ["Animation", "Family", "Fantasy"],
+        "director": "Ron Clements, John Musker",
+        "actors": ["Jodi Benson", "Samuel E. Wright", "Rene Auberjonois"],
+        "plotSummary": "A mermaid princess makes a Faustian bargain in an attempt to become human and win a prince's love.",
+        "runtime": 83
+      },
+      {
+        "id": 18,
+        "title": "Black Panther",
+        "genre": ["Action", "Adventure", "Sci-Fi"],
+        "director": "Ryan Coogler",
+        "actors": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o"],
+        "plotSummary": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
+        "runtime": 134
+      },
+      {
+        "id": 19,
+        "title": "Harry Potter and the Cursed Child",
+        "genre": ["Drama", "Fantasy"],
+        "director": "John Tiffany",
+        "actors": ["Jamie Parker", "Noma Dumezweni", "Paul Thornley"],
+        "plotSummary": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as 'the property of the Half-Blood Prince' and begins to learn more about Lord Voldemort's dark past.",
+        "runtime": 155
+      },
+      {
+        "id": 20,
+        "title": "Harry Potter and the Fantastic Beasts",
+        "genre": ["Adventure", "Family", "Fantasy"],
+        "director": "David Yates",
+        "actors": ["Eddie Redmayne", "Katherine Waterston", "Alison Sudol"],
+        "plotSummary": "The adventures of writer Newt Scamander in New York's secret community of witches and wizards seventy years before Harry Potter reads his book in school.",
+        "runtime": 132
       }
     ]
   }
