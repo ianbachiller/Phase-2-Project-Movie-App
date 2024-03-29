@@ -1,0 +1,62 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Inception",
+        "genre": ["Action", "Adventure", "Sci-Fi"],
+        "director": "Christopher Nolan",
+        "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+        "plotSummary": "A thief who enters the dreams of others to steal their secrets from their subconscious.",
+        "runtime": 148,
+        "userRatings": [
+          {
+            "userId": 1,
+            "rating": 5
+          },
+          {
+            "userId": 2,
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "The Shawshank Redemption",
+        "genre": ["Drama"],
+        "director": "Frank Darabont",
+        "actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+        "plotSummary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "runtime": 142,
+        "userRatings": [
+          {
+            "userId": 1,
+            "rating": 5
+          },
+          {
+            "userId": 3,
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "The Dark Knight",
+        "genre": ["Action", "Crime", "Drama"],
+        "director": "Christopher Nolan",
+        "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+        "plotSummary": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+        "runtime": 152,
+        "userRatings": [
+          {
+            "userId": 2,
+            "rating": 5
+          },
+          {
+            "userId": 3,
+            "rating": 4.5
+          }
+        ]
+      }
+    ]
+  }
+  
