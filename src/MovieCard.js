@@ -1,16 +1,20 @@
-import React, { useContext } from "react";
+import React from "react";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 
-function MovieCard({id, image, title}) {
+function MovieCard({ title, plotSummary, image }) {
   return (
-    <div>
-      <li className="card" data-testid="movie-item">
-        <img 
-            src = {image}
-            alt={image}/>
-        <h4>{title}</h4>
-        <p>{title}</p>
-      </li>
-    </div>
+    <Card sx={{ maxWidth: 300, marginBottom: 2, padding: 2 }}>
+      <CardMedia component="img" image={image} alt={title} />
+      <CardContent>
+        <Typography gutterBottom variant="h6" component="div">
+          {title}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {plotSummary}
+        </Typography>
+      </CardContent>
+    </Card>
   );
 }
-export default MovieCard
+
+export default MovieCard;

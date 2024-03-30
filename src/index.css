@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.movie-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+.title{
+  text-align: center;
+  font-size: 1000;
+  color: #39ff14; /* Neon green color */
+  text-shadow: 0 0 10px #39ff14, /* Neon green glow */
+               0 0 20px #39ff14,
+               0 0 30px #39ff14,
+               0 0 40px #39ff14,
+               0 0 70px #39ff14,
+               0 0 80px #39ff14,
+               0 0 100px #39ff14,
+}
+.navbar {
+  text-align: center
+}

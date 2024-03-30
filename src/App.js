@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import MovieList from './MovieList';
+import './index.css';
+import NavBar from './NavBar';
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
 
   return (
       <div>
+        <NavBar />
         <MovieList displayMovies={displayMovies}/>
       </div>
   );
