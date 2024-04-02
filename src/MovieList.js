@@ -1,9 +1,9 @@
 import React from "react";
 import MovieCard from "./MovieCard";
-import "./index.css"; // Import CSS file for styling
+import "./index.css"; 
 
-function MovieList({ displayMovies }) {
-  const movieCards = displayMovies.map(movie => (
+function MovieList({ filteredMovies }) {
+  const movieCards = filteredMovies.map((movie) => (
     <MovieCard
       key={movie.id}
       id={movie.id}
@@ -13,11 +13,7 @@ function MovieList({ displayMovies }) {
     />
   ));
 
-  return (
-    <div className="movie-list-container">
-      {movieCards}
-    </div>
-  );
+  return <div className="movie-list-container">{movieCards}</div>;
 }
 
 export default MovieList;

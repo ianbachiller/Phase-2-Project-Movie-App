@@ -1,11 +1,13 @@
+import { formGroupClasses } from "@mui/material";
 import React, { useState } from "react";
 
-function NewMovieForm({displayMovies, setDisplayMovies}) {
+function Form({ displayMovies, setDisplayMovies, search, setSearch, handleSearchChange }) {
   const [title, setTitle] = useState("");
   const [poster, setPoster] = useState("");
   const [plot, setPlot] = useState("");
   const [newMovie, setNewMovie] = useState({});
   const [genre, setGenre] = useState([]);
+
   const genres = [
     "Action",
     "Adventure",
@@ -25,9 +27,14 @@ function NewMovieForm({displayMovies, setDisplayMovies}) {
     setPlot(e.target.value);
   }
   function handleGenresChange(e) {
-    const selectedOptions = Array.from(e.target.selectedOptions, option => option.value)
-    setGenre(selectedOptions)
+    const selectedOptions = Array.from(
+      e.target.selectedOptions,
+      (option) => option.value
+    );
+    setGenre(selectedOptions);
   }
+
+
   function handleNewMovieSubmit(e) {
     e.preventDefault();
     const submittedMovie = {
@@ -39,22 +46,23 @@ function NewMovieForm({displayMovies, setDisplayMovies}) {
     setTitle("");
     setPlot("");
     setPoster("");
-    setGenre([])
+    setGenre([]);
     setNewMovie(submittedMovie);
     fetch("http://localhost:3000/movies", {
       method: "POST",
       headers: {
-        "Content-type": "application/JSON"
+        "Content-type": "application/JSON",
       },
-      body: JSON.stringify(submittedMovie)
+      body: JSON.stringify(submittedMovie),
     })
-    .then(resp => resp.json())
-    .then(newMovie => setDisplayMovies([newMovie, ...displayMovies ]))
-    .catch(error => console.error(error))
+      .then((resp) => resp.json())
+      .then((newMovie) => setDisplayMovies([newMovie, ...displayMovies]))
+      .catch((error) => console.error(error));
   }
   return (
-    <div>
+    <div className="form">
       <div className="new-movie-form">
+        <p>Add a new movie: </p>
         <form onSubmit={handleNewMovieSubmit}>
           <input
             type="text"
@@ -84,11 +92,13 @@ function NewMovieForm({displayMovies, setDisplayMovies}) {
               </option>
             ))}
           </select>
-          <button type="submit">Add Movie</button>
+          <button type="submit">Add Movie</button><br></br>
+          <p>Search by entering the title: </p>
+          <input placeholder="Enter title..." onChange={handleSearchChange}></input>
         </form>
       </div>
     </div>
   );
 }
 
-export default NewMovieForm;
+export default Form;

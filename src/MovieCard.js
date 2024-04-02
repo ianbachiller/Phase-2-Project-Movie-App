@@ -12,7 +12,7 @@ function MovieCard({ title, plotSummary, image }) {
         <Typography variant="body2" color="text.secondary">
           {plotSummary}
         </Typography>
-        <button className="oscarButton"> ♡ </button>
+        <button className="heartButton"> ♡ </button>
         {/* ♥️ */}
       </CardContent>
     </Card>
