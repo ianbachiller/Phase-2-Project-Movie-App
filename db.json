@@ -1,105 +1,74 @@
 {
-    "movies": [
-      {
-        "id": 1,
-        "title": "Iron Man",
-        "genre": ["Action", "Adventure", "Sci-Fi"],
-        "director": "Jon Favreau",
-        "cast": ["Robert Downey Jr.", "Gwyneth Paltrow", "Jeff Bridges"],
-        "plotSummary": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
-        "runtime": 126,
-        "image": "https://posters.movieposterdb.com/08_03/2008/371746/l_371746_4243f899.jpg"
-      },
-      {
-        "id": 2,
-        "title": "Harry Potter and the Sorcerer's Stone",
-        "genre": ["Adventure", "Family", "Fantasy"],
-        "director": "Chris Columbus",
-        "cast": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
-        "plotSummary": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
-        "runtime": 152,
-        "image": "https://posters.movieposterdb.com/13_02/2001/241527/l_241527_da927a3d.jpg"
-      },
-      {
-        "id": 3,
-        "title": "Guardians of the Galaxy",
-        "genre": ["Action", "Adventure", "Comedy"],
-        "director": "James Gunn",
-        "cast": ["Chris Pratt", "Zoe Saldana", "Dave Bautista"],
-        "plotSummary": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
-        "runtime": 121,
-        "image": "https://posters.movieposterdb.com/14_07/2014/2015381/l_2015381_2a13ec7d.jpg"
-      },
-      {
-        "id": 4,
-        "title": "The Lion King",
-        "genre": ["Animation", "Adventure", "Drama"],
-        "director": "Roger Allers, Rob Minkoff",
-        "cast": ["Matthew Broderick", "Jeremy Irons", "James Earl Jones"],
-        "plotSummary": "A lion cub prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to later accept in adulthood his identity and his responsibilities.",
-        "runtime": 88,
-        "image": "https://posters.movieposterdb.com/22_02/2019/6105098/l_6105098_3c46c8c0.jpg"
-      },
-      {
-        "id": 5,
-        "title": "Thor",
-        "genre": ["Action", "Adventure", "Fantasy"],
-        "director": "Kenneth Branagh",
-        "cast": ["Chris Hemsworth", "Natalie Portman", "Tom Hiddleston"],
-        "plotSummary": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
-        "runtime": 115,
-        "image": "https://posters.movieposterdb.com/11_03/2011/800369/l_800369_4d7c5af3.jpg"
-      },
-      {
-        "id": 6,
-        "title": "Toy Story",
-        "genre": ["Animation", "Adventure", "Comedy"],
-        "director": "John Lasseter",
-        "cast": ["Tom Hanks", "Tim Allen", "Don Rickles"],
-        "plotSummary": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
-        "runtime": 81,
-        "image": "https://posters.movieposterdb.com/13_05/1995/114709/l_114709_6645f9fc.jpg"
-      },
-      {
-        "id": 7,
-        "title": "The Avengers",
-        "genre": ["Action", "Adventure", "Sci-Fi"],
-        "director": "Joss Whedon",
-        "cast": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
-        "plotSummary": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
-        "runtime": 143,
-        "image": "https://posters.movieposterdb.com/20_10/2012/848228/l_848228_9bc5bc2a.jpg"
-      },
-      {
-        "id": 8,
-        "title": "Harry Potter and the Chamber of Secrets",
-        "genre": ["Adventure", "Family", "Fantasy"],
-        "director": "Chris Columbus",
-        "cast": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
-        "plotSummary": "An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.",
-        "runtime": 161,
-        "image": "https://posters.movieposterdb.com/11_08/2002/295297/l_295297_6be2c5d1.jpg"
-      },
-      {
-        "id": 9,
-        "title": "Captain America: The Winter Soldier",
-        "genre": ["Action", "Adventure", "Sci-Fi"],
-        "director": "Anthony Russo, Joe Russo",
-        "cast": ["Chris Evans", "Scarlett Johansson", "Sebastian Stan"],
-        "plotSummary": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
-        "runtime": 136,
-        "image": "https://posters.movieposterdb.com/14_03/2014/1843866/l_1843866_e6878799.jpg"
-      },
-      {
-        "id": 10,
-        "title": "Harry Potter and the Prisoner of Azkaban",
-        "genre": ["Adventure", "Family", "Fantasy"],
-        "director": "Alfonso Cuarón",
-        "cast": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson"],
-        "plotSummary": "It's Harry's third year at Hogwarts; not only does he have a new 'Defense Against the Dark Arts' teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
-        "runtime": 142,
-        "image": "https://posters.movieposterdb.com/05_10/2004/0304141/l_59919_0304141_97c274db.jpg"
-      }
-    ]
-  }
-  
+  "movies": [
+    {
+      "id": 1,
+      "title": "Iron Man",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "plotSummary": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+      "image": "https://posters.movieposterdb.com/08_03/2008/371746/l_371746_4243f899.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "genre": ["Adventure", "Family", "Fantasy"],
+      "plotSummary": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+      "image": "https://posters.movieposterdb.com/13_02/2001/241527/l_241527_da927a3d.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Guardians of the Galaxy",
+      "genre": ["Action", "Adventure", "Comedy"],
+      "plotSummary": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
+      "image": "https://posters.movieposterdb.com/14_07/2014/2015381/l_2015381_2a13ec7d.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Lion King",
+      "genre": ["Animation", "Adventure", "Drama"],
+      "plotSummary": "A lion cub prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to later accept in adulthood his identity and his responsibilities.",
+      "image": "https://posters.movieposterdb.com/22_02/2019/6105098/l_6105098_3c46c8c0.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Thor",
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "plotSummary": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
+      "image": "https://posters.movieposterdb.com/11_03/2011/800369/l_800369_4d7c5af3.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Toy Story",
+      "genre": ["Animation", "Adventure", "Comedy"],
+      "plotSummary": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+      "image": "https://posters.movieposterdb.com/13_05/1995/114709/l_114709_6645f9fc.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Avengers",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "plotSummary": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "image": "https://posters.movieposterdb.com/20_10/2012/848228/l_848228_9bc5bc2a.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "genre": ["Adventure", "Family", "Fantasy"],
+      "plotSummary": "An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.",
+      "image": "https://posters.movieposterdb.com/11_08/2002/295297/l_295297_6be2c5d1.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Captain America: The Winter Soldier",
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "plotSummary": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
+      "image": "https://posters.movieposterdb.com/14_03/2014/1843866/l_1843866_e6878799.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "genre": ["Adventure", "Family", "Fantasy"],
+      "plotSummary": "It's Harry's third year at Hogwarts; not only does he have a new 'Defense Against the Dark Arts' teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards' Prison and is coming after Harry.",
+      "image": "https://posters.movieposterdb.com/05_10/2004/0304141/l_59919_0304141_97c274db.jpg"
+    }
+  ]
+}
