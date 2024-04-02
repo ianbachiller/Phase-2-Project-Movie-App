@@ -19,8 +19,8 @@ function App() {
 
   return (
       <div>
-        <NavBar />
-        <MovieList displayMovies={displayMovies}/>
+        <NavBar displayMovies={displayMovies} setDisplayMovies={setDisplayMovies}/>
+        <MovieList displayMovies={displayMovies} />
       </div>
   );
 }

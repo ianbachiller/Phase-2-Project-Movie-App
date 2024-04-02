@@ -3,8 +3,6 @@ import MovieCard from "./MovieCard";
 import "./index.css"; // Import CSS file for styling
 
 function MovieList({ displayMovies }) {
-  console.log("From MovieList:", displayMovies);
-  
   const movieCards = displayMovies.map(movie => (
     <MovieCard
       key={movie.id}

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-function NewMovieForm() {
+function NewMovieForm({displayMovies, setDisplayMovies}) {
   const [title, setTitle] = useState("");
   const [poster, setPoster] = useState("");
   const [plot, setPlot] = useState("");
-  const [newMovie, setNewMovie] = useState([]);
+  const [newMovie, setNewMovie] = useState({});
   const [genre, setGenre] = useState([]);
   const genres = [
     "Action",
@@ -41,7 +41,16 @@ function NewMovieForm() {
     setPoster("");
     setGenre([])
     setNewMovie(submittedMovie);
-    console.log("Final submitted movie:",submittedMovie);
+    fetch("http://localhost:3000/movies", {
+      method: "POST",
+      headers: {
+        "Content-type": "application/JSON"
+      },
+      body: JSON.stringify(submittedMovie)
+    })
+    .then(resp => resp.json())
+    .then(newMovie => setDisplayMovies([newMovie, ...displayMovies ]))
+    .catch(error => console.error(error))
   }
   return (
     <div>
