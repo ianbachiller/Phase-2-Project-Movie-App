@@ -24,19 +24,20 @@ function App() {
         setDisplayMovies(movies);
       })
       .catch((error) => console.error("Error fetching movies:", error));
-  }, []);
+  }, [displayMovies]);
 
   return (
     <div>
       <Header />
+      <NavBar />
       <Form
         search={search}
         setSearch={setSearch}
         handleSearchChange={handleSearchChange}
-      />
-      <NavBar />
-      <MovieList
         displayMovies={displayMovies}
+        setDisplayMovies={setDisplayMovies}
+      />
+      <MovieList
         filteredMovies={filteredMovies}
       />
     </div>

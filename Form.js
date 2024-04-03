@@ -1,7 +1,7 @@
 import { formGroupClasses } from "@mui/material";
 import React, { useState } from "react";
 
-function Form({ displayMovies, setDisplayMovies, handleSearchChange }) {
+function Form({ displayMovies, setDisplayMovies, search, setSearch, handleSearchChange }) {
   const [title, setTitle] = useState("");
   const [poster, setPoster] = useState("");
   const [plot, setPlot] = useState("");
@@ -33,32 +33,34 @@ function Form({ displayMovies, setDisplayMovies, handleSearchChange }) {
     );
     setGenre(selectedOptions);
   }
-
-
   function handleNewMovieSubmit(e) {
     e.preventDefault();
-    const submittedMovie = {
-      title: title,
-      genre: genre,
-      plotSummary: plot,
-      image: poster,
-      likes: 0
-    };
-    setTitle("");
-    setPlot("");
-    setPoster("");
-    setGenre([]);
-    setNewMovie(submittedMovie);
-    fetch("http://localhost:3000/movies", {
-      method: "POST",
-      headers: {
-        "Content-type": "application/JSON",
-      },
-      body: JSON.stringify(submittedMovie),
-    })
-      .then((resp) => resp.json())
-      .then((newMovie) => setDisplayMovies([...displayMovies,newMovie]))
-      .catch((error) => console.error(error));
+    if(title !== "" && poster !== "" && plot !== ""&& genre.length > 0){
+      const submittedMovie = {
+        title: title,
+        genre: genre,
+        plotSummary: plot,
+        image: poster,
+      };
+      setTitle("");
+      setPlot("");
+      setPoster("");
+      setGenre([]);
+      setNewMovie(submittedMovie);
+      fetch("http://localhost:3000/movies", {
+        method: "POST",
+        headers: {
+          "Content-type": "application/JSON",
+        },
+        body: JSON.stringify(submittedMovie),
+      })
+        .then((resp) => resp.json())
+        .then((newMovie) => setDisplayMovies([newMovie, ...displayMovies]))
+        .catch((error) => console.error(error));
+    }else {
+      alert("Please fill out all the prompts!")
+    }
+    
   }
   return (
     <div className="form">
