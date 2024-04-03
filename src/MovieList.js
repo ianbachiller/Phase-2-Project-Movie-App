@@ -2,7 +2,7 @@ import React from "react";
 import MovieCard from "./MovieCard";
 import "./index.css"; 
 
-function MovieList({ filteredMovies }) {
+function MovieList({ filteredMovies, displayMovies, setDisplayMovies }) {
   const movieCards = filteredMovies.map((movie) => (
     <MovieCard
       key={movie.id}
@@ -10,6 +10,9 @@ function MovieList({ filteredMovies }) {
       title={movie.title}
       image={movie.image}
       plotSummary={movie.plotSummary}
+      likes={movie.likes}
+      displayMovies={displayMovies}
+      setDisplayMovies={setDisplayMovies}
     />
   ));
 

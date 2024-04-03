@@ -29,5 +29,27 @@ code {
                0 0 100px #39ff14,
 }
 .form {
-  text-align: center
+  text-align: center;
+  border-radius: 20px; /* Adjust the value to change the curvature */
+  background-color: wheat; /* Change the background color as needed */
+  padding: 20px;
+  margin: 5px;
+}
+.navbar {
+  border-radius: 20px; /* Adjust the value to change the curvature */
+  background-color: grey; /* Change the background color as needed */
+  padding: 20px; /* Add padding for content inside the container */
+  margin: 5px;
+}
+.header {
+  border-radius: 20px; /* Adjust the value to change the curvature */
+  background-color: black; /* Change the background color as needed */
+  padding: 20px; /* Add padding for content inside the container */
+  margin: 5px;
+}
+.movie-list-container {
+  border-radius: 20px; /* Adjust the value to change the curvature */
+  background-color: black; /* Change the background color as needed */
+  padding: 20px; /* Add padding for content inside the container */
+  margin: 5px;
 }

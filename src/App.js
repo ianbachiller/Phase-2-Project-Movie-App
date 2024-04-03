@@ -16,15 +16,16 @@ function App() {
   const filteredMovies = displayMovies.filter((movie) =>
     movie.title.toLowerCase().includes(search.toLowerCase())
   );
-
+const counter = 0;
   useEffect(() => {
+    console.log(counter)
     fetch("http://localhost:3000/movies")
       .then((resp) => resp.json())
       .then((movies) => {
         setDisplayMovies(movies);
       })
       .catch((error) => console.error("Error fetching movies:", error));
-  }, [displayMovies]);
+  }, []);
 
   return (
     <div>
@@ -39,6 +40,8 @@ function App() {
       />
       <MovieList
         filteredMovies={filteredMovies}
+        displayMovies={displayMovies}
+        setDisplayMovies={setDisplayMovies}
       />
     </div>
   );
