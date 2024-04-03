@@ -10,7 +10,7 @@
       ],
       "plotSummary": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
       "image": "https://posters.movieposterdb.com/08_03/2008/371746/l_371746_4243f899.jpg",
-      "likes": 0
+      "likes": 5
     },
     {
       "id": "2",
@@ -46,7 +46,7 @@
       ],
       "plotSummary": "A lion cub prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to later accept in adulthood his identity and his responsibilities.",
       "image": "https://posters.movieposterdb.com/22_02/2019/6105098/l_6105098_3c46c8c0.jpg",
-      "likes": 12
+      "likes": 13
     },
     {
       "id": "5",
@@ -173,6 +173,14 @@
       ],
       "plotSummary": "Paul Rudd!",
       "image": "https://posters.movieposterdb.com/24_02/2024/21235248/l_ghostbusters-frozen-empire-movie-poster_620b9727.jpg",
+      "likes": 0
+    },
+    {
+      "id": "0adc",
+      "title": "",
+      "genre": [],
+      "plotSummary": "",
+      "image": "",
       "likes": 0
     }
   ]

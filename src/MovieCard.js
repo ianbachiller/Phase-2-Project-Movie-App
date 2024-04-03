@@ -31,7 +31,9 @@ function MovieCard({ title, plotSummary, image, likes, id, displayMovies, setDis
         <Typography variant="body2" color="text.secondary">
           {plotSummary}
         </Typography>
-        <button className="heartButton" onClick={handleLikeClick}> ♥️ {likes} </button>
+          <div style={{ textAlign: "center" }}> 
+            <button style={{ fontSize: "large" }} className="heartButton" onClick={handleLikeClick}> ♥️ {likes} </button>
+          </div>
       </CardContent>
     </Card>
   );

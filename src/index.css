@@ -53,3 +53,6 @@ code {
   padding: 20px; /* Add padding for content inside the container */
   margin: 5px;
 }
+.heartButton {
+  text-align: center;
+}
