@@ -37,6 +37,7 @@ function Form({ displayMovies, setDisplayMovies, handleSearchChange }) {
 
   function handleNewMovieSubmit(e) {
     e.preventDefault();
+    if (title !== "" && poster !== "" && plot !== "" && genre.length > 0){
     const submittedMovie = {
       title: title,
       genre: genre,
@@ -59,6 +60,9 @@ function Form({ displayMovies, setDisplayMovies, handleSearchChange }) {
       .then((resp) => resp.json())
       .then((newMovie) => setDisplayMovies([...displayMovies,newMovie]))
       .catch((error) => console.error(error));
+  }else {
+    alert("PLS DON'T LEAVE BLANKS DANKE!")
+  }
   }
   return (
     <div className="form">
