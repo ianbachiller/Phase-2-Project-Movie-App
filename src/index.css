@@ -79,3 +79,8 @@ code {
   text-align: center;
   margin: 5px;
 }
+.image-container {
+  text-align: center;
+  flex: auto;
+  background-color: cornsilk;
+}

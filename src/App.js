@@ -38,9 +38,14 @@ function App() {
       <div>
         <Header />
         <NavBar />
-        <Home />
-        <Form/>
-        <MovieList />
+        {/* <MovieList /> */}
+        <div className="image-container">
+          <img
+            id="welcomeDoggo"
+            src="https://c.tenor.com/rDNPdB5bOeEAAAAd/tenor.gif"
+            alt="Welcome Doggo"
+          />
+           </div>
       </div>
     </MovieContext.Provider>
   );

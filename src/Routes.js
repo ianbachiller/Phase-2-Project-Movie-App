@@ -11,17 +11,18 @@ const routes = [
     errorElement: <ErrorPage />,
   },
   {
+    path: "/home",
+    element: <Home />,
+    errorElement: <ErrorPage />,
+  },
+  {
     path: "/movies",
-    element: (
-      <MovieList />
-    ),
+    element: <MovieList />,
     errorElement: <ErrorPage />,
   },
   {
     path: "/form",
-    element: (
-      <Form />
-    ),
+    element: <Form />,
     errorElement: <ErrorPage />,
   }
 ];

@@ -152,7 +152,7 @@
       ],
       "plotSummary": "POPO",
       "image": "https://posters.movieposterdb.com/23_12/2024/21692408/l_kung-fu-panda-4-movie-poster_1c7ba201.jpg",
-      "likes": 12
+      "likes": 17
     },
     {
       "id": "099f",
@@ -162,7 +162,7 @@
       ],
       "plotSummary": "scary movie",
       "image": "https://posters.movieposterdb.com/24_03/2024/23137390/l_immaculate-movie-poster_f1761c52.jpg",
-      "likes": 10
+      "likes": 18
     },
     {
       "id": "adff",
@@ -173,79 +173,7 @@
       ],
       "plotSummary": "Paul Rudd!",
       "image": "https://posters.movieposterdb.com/24_02/2024/21235248/l_ghostbusters-frozen-empire-movie-poster_620b9727.jpg",
-      "likes": 7
-    },
-    {
-      "id": "0adc",
-      "title": "",
-      "genre": [],
-      "plotSummary": "",
-      "image": "",
-      "likes": 0
-    },
-    {
-      "id": "f8f7",
-      "title": "a",
-      "genre": [
-        "Comedy"
-      ],
-      "plotSummary": "dada",
-      "image": "dada",
-      "likes": 11
-    },
-    {
-      "id": "7a15",
-      "title": "dawdaw",
-      "genre": [
-        "Comedy"
-      ],
-      "plotSummary": "dawdada",
-      "image": "dawda",
-      "likes": 6
-    },
-    {
-      "id": "e5ef",
-      "title": "Woody",
-      "genre": [
-        "Comedy"
-      ],
-      "plotSummary": "Rose is a bitch",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tsukemen_at_a_Tokyo_restaurant.jpg/2880px-Tsukemen_at_a_Tokyo_restaurant.jpg",
-      "likes": 0
-    },
-    {
-      "id": "b0d0",
-      "title": "adwad",
-      "genre": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "plotSummary": "dadwaw",
-      "image": "dawdaw",
-      "likes": 0
-    },
-    {
-      "id": "3ea7",
-      "title": "Ramen",
-      "genre": [
-        "Comedy",
-        "Drama"
-      ],
-      "plotSummary": "Jack got jacked. ",
-      "image": "https://static.wikia.nocookie.net/disney/images/f/fc/Profile_-_Sarge.jpg/revision/latest?cb=20190701122500",
-      "likes": 0
-    },
-    {
-      "id": "c758",
-      "title": "Abubut",
-      "genre": [
-        "Action",
-        "Adventure"
-      ],
-      "plotSummary": "hoehoehoe",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tsukemen_at_a_Tokyo_restaurant.jpg/2880px-Tsukemen_at_a_Tokyo_restaurant.jpg",
-      "likes": 5
+      "likes": 14
     }
   ]
 }
