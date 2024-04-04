@@ -34,7 +34,7 @@
       ],
       "plotSummary": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
       "image": "https://posters.movieposterdb.com/14_07/2014/2015381/l_2015381_2a13ec7d.jpg",
-      "likes": 20
+      "likes": 25
     },
     {
       "id": "4",
@@ -58,7 +58,7 @@
       ],
       "plotSummary": "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
       "image": "https://posters.movieposterdb.com/11_03/2011/800369/l_800369_4d7c5af3.jpg",
-      "likes": 8
+      "likes": 12
     },
     {
       "id": "6",
@@ -173,7 +173,7 @@
       ],
       "plotSummary": "Paul Rudd!",
       "image": "https://posters.movieposterdb.com/24_02/2024/21235248/l_ghostbusters-frozen-empire-movie-poster_620b9727.jpg",
-      "likes": 0
+      "likes": 7
     },
     {
       "id": "0adc",
@@ -181,6 +181,36 @@
       "genre": [],
       "plotSummary": "",
       "image": "",
+      "likes": 0
+    },
+    {
+      "id": "f8f7",
+      "title": "a",
+      "genre": [
+        "Comedy"
+      ],
+      "plotSummary": "dada",
+      "image": "dada",
+      "likes": 11
+    },
+    {
+      "id": "7a15",
+      "title": "dawdaw",
+      "genre": [
+        "Comedy"
+      ],
+      "plotSummary": "dawdada",
+      "image": "dawda",
+      "likes": 6
+    },
+    {
+      "id": "e5ef",
+      "title": "Woody",
+      "genre": [
+        "Comedy"
+      ],
+      "plotSummary": "Rose is a bitch",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tsukemen_at_a_Tokyo_restaurant.jpg/2880px-Tsukemen_at_a_Tokyo_restaurant.jpg",
       "likes": 0
     }
   ]

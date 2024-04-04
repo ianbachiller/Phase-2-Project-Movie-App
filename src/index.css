@@ -35,12 +35,6 @@ code {
   padding: 20px;
   margin: 5px;
 }
-.navbar {
-  border-radius: 20px; /* Adjust the value to change the curvature */
-  background-color: grey; /* Change the background color as needed */
-  padding: 20px; /* Add padding for content inside the container */
-  margin: 5px;
-}
 .header {
   border-radius: 20px; /* Adjust the value to change the curvature */
   background-color: black; /* Change the background color as needed */
@@ -55,4 +49,27 @@ code {
 }
 .heartButton {
   text-align: center;
+}
+.navbar{
+  border-radius: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 60px;
+  padding: 5px;
+  margin: 0 6px 6px;
+  background: blue;
+  text-decoration: none;
+  text-align: center;
+  font-size: min(10vw, 15px) ;
+  color: white;
+}
+
+.active {
+  color: red;
+}
+
+.error-page {
+  flex: auto;
+  text-align: center;
+  margin: 5px;
 }

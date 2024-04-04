@@ -1,8 +1,10 @@
-import React from "react";
+import React, {useContext} from "react";
 import MovieCard from "./MovieCard";
 import "./index.css"; 
+import { MovieContext } from "./App";
 
-function MovieList({ filteredMovies, displayMovies, setDisplayMovies }) {
+function MovieList() {
+  const { filteredMovies, displayMovies, setDisplayMovies } = useContext(MovieContext);
   const movieCards = filteredMovies.map((movie) => (
     <MovieCard
       key={movie.id}

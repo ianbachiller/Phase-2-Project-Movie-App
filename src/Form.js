@@ -1,7 +1,9 @@
 import { formGroupClasses } from "@mui/material";
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { MovieContext } from "./App";
 
-function Form({ displayMovies, setDisplayMovies, handleSearchChange }) {
+function Form() {
+  const {displayMovies, setDisplayMovies, handleSearchChange} = useContext(MovieContext)
   const [title, setTitle] = useState("");
   const [poster, setPoster] = useState("");
   const [plot, setPlot] = useState("");
