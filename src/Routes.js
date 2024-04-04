@@ -23,12 +23,7 @@ const routes = [
       <Form />
     ),
     errorElement: <ErrorPage />,
-  },
-  // {
-  //   path: "/movie/:id",
-  //   element: <MovieCard />,
-  //   errorElement: <ErrorPage />
-  // }
+  }
 ];
 
 export default routes;

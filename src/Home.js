@@ -1,9 +1,11 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 function Home () {
     return (
         <>
-        <h1>Welcome to Ian's movie voting app!</h1>
+        {/* <NavBar /> */}
+        <h1 className="home">Welcome to Ian's movie voting app!</h1>
         </>
     )
 }

@@ -2,6 +2,7 @@ import React, {useContext} from "react";
 import MovieCard from "./MovieCard";
 import "./index.css"; 
 import { MovieContext } from "./App";
+import NavBar from "./NavBar";
 
 function MovieList() {
   const { filteredMovies, displayMovies, setDisplayMovies } = useContext(MovieContext);
@@ -18,7 +19,17 @@ function MovieList() {
     />
   ));
 
-  return <div className="movie-list-container">{movieCards}</div>;
+  return (
+    
+    <div>
+      <div>
+        <NavBar />
+      </div>
+      <div className="movie-list-container">
+        {movieCards}
+      </div>
+      
+    </div>);
 }
 
 export default MovieList;

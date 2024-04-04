@@ -11,6 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.home {
+  text-align: center;
+}
 .movie-list-container {
   display: flex;
   flex-wrap: wrap;
@@ -50,11 +53,14 @@ code {
 .heartButton {
   text-align: center;
 }
-.navbar{
-  border-radius: 20px;
+.navbar {
+  background-color: cornsilk;
+  text-align: center;
+}
+.nav-link{
   display: inline-block;
   box-sizing: border-box;
-  width: 60px;
+  width: auto;
   padding: 5px;
   margin: 0 6px 6px;
   background: blue;

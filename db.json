@@ -212,6 +212,40 @@
       "plotSummary": "Rose is a bitch",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tsukemen_at_a_Tokyo_restaurant.jpg/2880px-Tsukemen_at_a_Tokyo_restaurant.jpg",
       "likes": 0
+    },
+    {
+      "id": "b0d0",
+      "title": "adwad",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "plotSummary": "dadwaw",
+      "image": "dawdaw",
+      "likes": 0
+    },
+    {
+      "id": "3ea7",
+      "title": "Ramen",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "plotSummary": "Jack got jacked. ",
+      "image": "https://static.wikia.nocookie.net/disney/images/f/fc/Profile_-_Sarge.jpg/revision/latest?cb=20190701122500",
+      "likes": 0
+    },
+    {
+      "id": "c758",
+      "title": "Abubut",
+      "genre": [
+        "Action",
+        "Adventure"
+      ],
+      "plotSummary": "hoehoehoe",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tsukemen_at_a_Tokyo_restaurant.jpg/2880px-Tsukemen_at_a_Tokyo_restaurant.jpg",
+      "likes": 5
     }
   ]
 }
