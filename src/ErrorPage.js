@@ -1,5 +1,6 @@
 import NavBar from "./NavBar";
 import { useRouteError } from "react-router-dom";
+import Header from "./Header"
 
 function ErrorPage() {
   const error = useRouteError();
@@ -8,6 +9,7 @@ function ErrorPage() {
   return (
     <>
       <header>
+        <Header />
         <NavBar />
       </header>
       <main className="error-page">

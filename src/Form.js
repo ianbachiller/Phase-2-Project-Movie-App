@@ -2,10 +2,11 @@ import { formGroupClasses } from "@mui/material";
 import React, { useState, useContext } from "react";
 import { MovieContext } from "./App";
 import NavBar from "./NavBar";
+import Header from "./Header"
+import MovieList from "./MovieList";
 
 function Form() {
-  const { displayMovies, setDisplayMovies, handleSearchChange } =
-    useContext(MovieContext);
+  const { displayMovies, setDisplayMovies, handleSearchChange } = useContext(MovieContext);
   const [title, setTitle] = useState("");
   const [poster, setPoster] = useState("");
   const [plot, setPlot] = useState("");
@@ -69,6 +70,7 @@ function Form() {
   }
   return (
     <div>
+      <Header />
       <NavBar />
       <div className="form">
         <div className="new-movie-form">

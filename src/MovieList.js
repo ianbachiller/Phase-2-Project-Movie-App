@@ -3,9 +3,11 @@ import MovieCard from "./MovieCard";
 import "./index.css"; 
 import { MovieContext } from "./App";
 import NavBar from "./NavBar";
+import contextValue from "./App"
 
 function MovieList() {
   const { filteredMovies, displayMovies, setDisplayMovies } = useContext(MovieContext);
+  console.log("MovieList:", filteredMovies)
   const movieCards = filteredMovies.map((movie) => (
     <MovieCard
       key={movie.id}
@@ -28,7 +30,6 @@ function MovieList() {
       <div className="movie-list-container">
         {movieCards}
       </div>
-      
     </div>);
 }
 

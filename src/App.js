@@ -5,10 +5,10 @@ import NavBar from "./NavBar";
 import Header from "./Header";
 import Form from "./Form";
 import Home from "./Home";
+import routes from "./Routes";
 
 export const MovieContext = createContext();
 function App() {
-
   const [displayMovies, setDisplayMovies] = useState([]);
   const [search, setSearch] = useState("");
 
@@ -34,8 +34,8 @@ function App() {
   };
 
   return (
-    <MovieContext.Provider value={contextValue}>
-      <div>
+    <div>
+      <MovieContext.Provider value={contextValue}>
         <Header />
         <NavBar />
         {/* <MovieList /> */}
@@ -45,9 +45,9 @@ function App() {
             src="https://c.tenor.com/rDNPdB5bOeEAAAAd/tenor.gif"
             alt="Welcome Doggo"
           />
-           </div>
-      </div>
-    </MovieContext.Provider>
+        </div>
+      </MovieContext.Provider>
+    </div>
   );
 }
 
