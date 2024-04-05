@@ -12,8 +12,7 @@ function Ratings() {
       .then((data) => {
         const imdbRatings = data.map((movie) => (
           <div key={movie.id}>
-            <h1>{movie.title}</h1>
-            <p>{movie.imdbRating}</p>
+            <h1>{movie.title}: {movie.imdbRating}</h1>
           </div>
         ));
         setRatings(imdbRatings);
