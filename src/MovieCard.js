@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 
-function MovieCard({ title, plotSummary, image, likes, id, displayMovies, setDisplayMovies }) {
+function MovieCard({ title, plotSummary, image, likes, id, displayMovies, setDisplayMovies, imdbRating }) {
   function handleLikeClick () {
     fetch(`http://localhost:3000/movies/${id}`,{
       method: "PATCH",
@@ -30,6 +30,9 @@ function MovieCard({ title, plotSummary, image, likes, id, displayMovies, setDis
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {plotSummary}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          IMDB Rating: {imdbRating}
         </Typography>
           <div style={{ textAlign: "center" }}> 
             <button style={{ fontSize: "large" }} className="heartButton" onClick={handleLikeClick}> ♥️ {likes} </button>

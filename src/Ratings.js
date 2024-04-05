@@ -1,0 +1,33 @@
+import React, { useState, useEffect } from "react";
+import Header from "./Header";
+import NavBar from "./NavBar";
+import MovieCard from "./MovieCard";
+
+function Ratings() {
+  const [ratings, setRatings] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/movies")
+      .then((resp) => resp.json())
+      .then((data) => {
+        const imdbRatings = data.map((movie) => (
+          <div key={movie.id}>
+            <h1>{movie.title}</h1>
+            <p>{movie.imdbRating}</p>
+          </div>
+        ));
+        setRatings(imdbRatings);
+      })
+      .catch((error) => console.error("Error fetching ratings:", error));
+  }, []);
+
+  return (
+    <div>
+      <Header />
+      <NavBar />
+      <div>{ratings}</div>
+    </div>
+  );
+}
+
+export default Ratings;

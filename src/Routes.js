@@ -6,6 +6,7 @@ import ErrorPage from "./ErrorPage";
 import { MovieContext } from "./App";
 import contextValue from "./App";
 import Winner from "./Winner";
+import Ratings from "./Ratings";
 
 const routes = [
   {
@@ -22,6 +23,11 @@ const routes = [
     path: "/winner",
     element: <Winner />,
     errorElement: <ErrorPage />
+  },
+  {
+    path: "/ratings",
+    element: <Ratings />,
+    errorElement: <ErrorPage />,
   }
 ];
 export default routes;
