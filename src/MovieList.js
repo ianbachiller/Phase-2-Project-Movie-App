@@ -16,7 +16,6 @@ function MovieList() {
       image={movie.image}
       plotSummary={movie.plotSummary}
       likes={movie.likes}
-      imdbRating={movie.imdbRating}
       displayMovies={displayMovies}
       setDisplayMovies={setDisplayMovies}
     />
