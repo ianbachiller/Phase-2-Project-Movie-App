@@ -13,6 +13,7 @@ code {
 }
 .home {
   text-align: center;
+  background-color: cornsilk;
 }
 .movie-list-container {
   display: flex;
@@ -34,7 +35,7 @@ code {
 .form {
   text-align: center;
   border-radius: 20px; /* Adjust the value to change the curvature */
-  background-color: wheat; /* Change the background color as needed */
+  background-color: cornsilk; /* Change the background color as needed */
   padding: 20px;
   margin: 5px;
 }
@@ -46,7 +47,7 @@ code {
 }
 .movie-list-container {
   border-radius: 20px; /* Adjust the value to change the curvature */
-  background-color: black; /* Change the background color as needed */
+  background-color: cornsilk; /* Change the background color as needed */
   padding: 20px; /* Add padding for content inside the container */
   margin: 5px;
 }
@@ -83,4 +84,16 @@ code {
   text-align: center;
   flex: auto;
   background-color: cornsilk;
+}
+.winner-movie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.moviecard-winners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

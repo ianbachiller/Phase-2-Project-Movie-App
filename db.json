@@ -22,7 +22,7 @@
       ],
       "plotSummary": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
       "image": "https://posters.movieposterdb.com/13_02/2001/241527/l_241527_da927a3d.jpg",
-      "likes": 7
+      "likes": 13
     },
     {
       "id": "3",
@@ -34,7 +34,7 @@
       ],
       "plotSummary": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
       "image": "https://posters.movieposterdb.com/14_07/2014/2015381/l_2015381_2a13ec7d.jpg",
-      "likes": 25
+      "likes": 31
     },
     {
       "id": "4",
@@ -70,7 +70,7 @@
       ],
       "plotSummary": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
       "image": "https://posters.movieposterdb.com/13_05/1995/114709/l_114709_6645f9fc.jpg",
-      "likes": 25
+      "likes": 31
     },
     {
       "id": "7",
@@ -82,7 +82,7 @@
       ],
       "plotSummary": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
       "image": "https://posters.movieposterdb.com/20_10/2012/848228/l_848228_9bc5bc2a.jpg",
-      "likes": 6
+      "likes": 8
     },
     {
       "id": "8",
@@ -142,7 +142,7 @@
       ],
       "plotSummary": "\"Jurassic Park\" is a thrilling science fiction adventure directed by Steven Spielberg, adapted from Michael Crichton's novel. Set on a remote island, it follows the story of a billionaire who creates a theme park populated by cloned dinosaurs. Chaos ensues when the park's security systems fail, unleashing the ancient creatures on unsuspecting visitors. Amidst breathtaking action sequences and groundbreaking visual effects, the film explores themes of hubris, the ethics of genetic engineering, and the fragility of humanity in the face of nature's raw power.",
       "image": "https://posters.movieposterdb.com/05_08/1993/0107290/l_45298_0107290_be4e0db3.jpg",
-      "likes": 0
+      "likes": 34
     },
     {
       "id": "91c4",
@@ -176,15 +176,15 @@
       "likes": 14
     },
     {
-      "id": "4ab9",
-      "title": "JETTTT",
+      "id": "41fa",
+      "title": "Star Wars: A New Hope ",
       "genre": [
         "Adventure",
-        "Comedy",
-        "Drama"
+        "Fantasy",
+        "Sci-Fi"
       ],
-      "plotSummary": "dnjawndwabndf",
-      "image": "dawdwadawdawd",
+      "plotSummary": "\"Star Wars: Episode IV - A New Hope\" follows Luke Skywalker's journey as he discovers his connection to the Force, joins the Rebel Alliance, and helps destroy the Empire's superweapon, the Death Star. Alongside allies like Princess Leia, Han Solo, and Obi-Wan Kenobi, Luke battles the villainous Darth Vader and inspires hope in the galaxy by striking a major blow against the Empire.",
+      "image": "https://posters.movieposterdb.com/12_05/1977/76759/l_76759_7ebdd9fc.jpg",
       "likes": 0
     }
   ]

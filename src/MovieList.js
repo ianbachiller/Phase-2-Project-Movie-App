@@ -3,7 +3,6 @@ import MovieCard from "./MovieCard";
 import "./index.css"; 
 import { MovieContext } from "./App";
 import NavBar from "./NavBar";
-import contextValue from "./App"
 
 
 function MovieList() {
@@ -25,9 +24,6 @@ function MovieList() {
   return (
     
     <div>
-      <div>
-        <NavBar />
-      </div>
       <div className="movie-list-container">
         {movieCards}
       </div>

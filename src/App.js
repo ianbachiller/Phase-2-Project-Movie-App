@@ -4,8 +4,7 @@ import "./index.css";
 import NavBar from "./NavBar";
 import Header from "./Header";
 import Form from "./Form";
-import Home from "./Home";
-import routes from "./Routes";
+
 
 export const MovieContext = createContext();
 function App() {
@@ -27,25 +26,19 @@ function App() {
       .catch((error) => console.error("Error fetching movies:", error));
   }, []);
   const contextValue = {
-    filteredMovies,
-    displayMovies,
-    setDisplayMovies,
-    handleSearchChange,
-  };
+      filteredMovies,
+      displayMovies,
+      setDisplayMovies,
+      handleSearchChange,
+    };
 
   return (
     <div>
       <MovieContext.Provider value={contextValue}>
         <Header />
         <NavBar />
-        {/* <MovieList /> */}
-        <div className="image-container">
-          <img
-            id="welcomeDoggo"
-            src="https://c.tenor.com/rDNPdB5bOeEAAAAd/tenor.gif"
-            alt="Welcome Doggo"
-          />
-        </div>
+        <Form />
+        <MovieList />
       </MovieContext.Provider>
     </div>
   );

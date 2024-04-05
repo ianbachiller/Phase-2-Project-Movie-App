@@ -7,15 +7,13 @@ import MovieList from "./MovieList";
 
 
 function Form() {
-
   const { displayMovies, setDisplayMovies, handleSearchChange } = useContext(MovieContext);
   const [title, setTitle] = useState("");
   const [poster, setPoster] = useState("");
   const [plot, setPlot] = useState("");
   const [newMovie, setNewMovie] = useState({});
   const [genre, setGenre] = useState([]);
-  console.log("From Form:", displayMovies)
-
+console.log("From form: ", displayMovies)
   const genres = [
     "Action",
     "Adventure",
@@ -73,8 +71,6 @@ function Form() {
   }
   return (
     <div>
-      <Header />
-      <NavBar />
       <div className="form">
         <div className="new-movie-form">
           <p>Add a new movie: </p>
