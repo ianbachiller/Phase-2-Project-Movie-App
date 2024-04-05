@@ -5,6 +5,7 @@ import { MovieContext } from "./App";
 import NavBar from "./NavBar";
 import contextValue from "./App"
 
+
 function MovieList() {
   const { filteredMovies, displayMovies, setDisplayMovies } = useContext(MovieContext);
   console.log("MovieList:", filteredMovies)

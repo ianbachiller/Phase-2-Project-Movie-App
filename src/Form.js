@@ -5,13 +5,16 @@ import NavBar from "./NavBar";
 import Header from "./Header"
 import MovieList from "./MovieList";
 
+
 function Form() {
+
   const { displayMovies, setDisplayMovies, handleSearchChange } = useContext(MovieContext);
   const [title, setTitle] = useState("");
   const [poster, setPoster] = useState("");
   const [plot, setPlot] = useState("");
   const [newMovie, setNewMovie] = useState({});
   const [genre, setGenre] = useState([]);
+  console.log("From Form:", displayMovies)
 
   const genres = [
     "Action",
