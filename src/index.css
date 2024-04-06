@@ -11,54 +11,75 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .home {
   text-align: center;
   background-color: cornsilk;
 }
+
 .movie-list-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
-.title{
+
+.title {
   text-align: center;
   font-size: 1000;
-  color: #39ff14; 
+  color: #39ff14;
   text-shadow: 0 0 10px #39ff14,
-               0 0 20px #39ff14,
-               0 0 30px #39ff14,
-               0 0 40px #39ff14,
-               0 0 70px #39ff14,
-               0 0 80px #39ff14,
-               0 0 100px #39ff14,
+    0 0 20px #39ff14,
+    0 0 30px #39ff14,
+    0 0 40px #39ff14,
+    0 0 70px #39ff14,
+    0 0 80px #39ff14,
+    0 0 100px #39ff14,
 }
+
 .form {
   text-align: center;
-  border-radius: 20px; /* Adjust the value to change the curvature */
-  background-color: cornsilk; /* Change the background color as needed */
+  border-radius: 20px;
+  /* Adjust the value to change the curvature */
+  background-color: cornsilk;
+  /* Change the background color as needed */
   padding: 20px;
   margin: 5px;
 }
+
 .header {
-  border-radius: 20px; /* Adjust the value to change the curvature */
-  background-color: black; /* Change the background color as needed */
-  padding: 20px; /* Add padding for content inside the container */
+  border-radius: 20px;
+  /* Adjust the value to change the curvature */
+  background-color: black;
+  /* Change the background color as needed */
+  padding: 20px;
+  /* Add padding for content inside the container */
   margin: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
+
 .movie-list-container {
-  border-radius: 20px; /* Adjust the value to change the curvature */
-  background-color: cornsilk; /* Change the background color as needed */
-  padding: 20px; /* Add padding for content inside the container */
+  border-radius: 20px;
+  /* Adjust the value to change the curvature */
+  background-color: cornsilk;
+  /* Change the background color as needed */
+  padding: 20px;
+  /* Add padding for content inside the container */
   margin: 5px;
 }
+
 .heartButton {
   text-align: center;
 }
+
 .navbar {
   background-color: cornsilk;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
-.nav-link{
+
+.nav-link {
   display: inline-block;
   box-sizing: border-box;
   width: auto;
@@ -67,7 +88,7 @@ code {
   background: blue;
   text-decoration: none;
   text-align: center;
-  font-size: min(10vw, 15px) ;
+  font-size: min(10vw, 15px);
   color: white;
 }
 
@@ -75,16 +96,23 @@ code {
   color: red;
 }
 
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
 .error-page {
   flex: auto;
   text-align: center;
   margin: 5px;
 }
+
 .image-container {
   text-align: center;
   flex: auto;
   background-color: cornsilk;
 }
+
 .winner-movie-container {
   display: flex;
   flex-direction: column;
@@ -97,15 +125,39 @@ code {
   flex-wrap: wrap;
   justify-content: center;
 }
-.ratings-container{
+
+.ratings-container {
   background-color: cornsilk;
   column-count: auto;
 }
-.about{
-  background-color: cornsilk;
+
+.about p {
   column-count: auto;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  border: 2px solid #ff6b6b;
+  border-radius: 10px;
+  padding: 10px;
 }
+
 body {
-  background-color: cornsilk; 
+  background-color: cornsilk;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.header {
+  animation: slide-in 0.5s ease-out forwards;
 }
