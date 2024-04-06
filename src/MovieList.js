@@ -2,12 +2,9 @@ import React, {useContext} from "react";
 import MovieCard from "./MovieCard";
 import "./index.css"; 
 import { MovieContext } from "./App";
-import NavBar from "./NavBar";
-
 
 function MovieList() {
   const { filteredMovies, displayMovies, setDisplayMovies } = useContext(MovieContext);
-  console.log("MovieList:", filteredMovies)
   const movieCards = filteredMovies.map((movie) => (
     <MovieCard
       key={movie.id}

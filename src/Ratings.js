@@ -21,7 +21,7 @@ function Ratings() {
   }, []);
 
   return (
-    <div>
+    <div className="ratings-container">
       <Header />
       <NavBar />
       <div>{ratings}</div>

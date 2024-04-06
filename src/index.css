@@ -89,11 +89,23 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  background-color: cornsilk;
 }
 
 .moviecard-winners {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.ratings-container{
+  background-color: cornsilk;
+  column-count: auto;
+}
+.about{
+  background-color: cornsilk;
+  column-count: auto;
+  text-align: center;
+}
+body {
+  background-color: cornsilk; 
 }

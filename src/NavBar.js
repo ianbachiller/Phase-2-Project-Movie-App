@@ -16,6 +16,9 @@ function NavBar() {
       <NavLink to="/ratings" className="nav-link">
         IMDB Ratings
       </NavLink>
+      <NavLink to="/about" className="nav-link">
+        About
+      </NavLink>
     </nav>
   );
 }

@@ -5,7 +5,6 @@ import NavBar from "./NavBar";
 import Header from "./Header";
 import Form from "./Form";
 
-
 export const MovieContext = createContext();
 function App() {
   const [displayMovies, setDisplayMovies] = useState([]);
@@ -26,11 +25,11 @@ function App() {
       .catch((error) => console.error("Error fetching movies:", error));
   }, []);
   const contextValue = {
-      filteredMovies,
-      displayMovies,
-      setDisplayMovies,
-      handleSearchChange,
-    };
+    filteredMovies,
+    displayMovies,
+    setDisplayMovies,
+    handleSearchChange,
+  };
 
   return (
     <div>

@@ -1,12 +1,9 @@
 import Home from "./Home";
 import App from "./App";
-import MovieList from "./MovieList";
-import Form from "./Form";
 import ErrorPage from "./ErrorPage";
-import { MovieContext } from "./App";
-import contextValue from "./App";
 import Winner from "./Winner";
 import Ratings from "./Ratings";
+import About from "./About";
 
 const routes = [
   {
@@ -27,6 +24,11 @@ const routes = [
   {
     path: "/ratings",
     element: <Ratings />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/about",
+    element: <About />,
     errorElement: <ErrorPage />,
   }
 ];
