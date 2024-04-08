@@ -5,6 +5,7 @@ function Form({ contextValue }) {
   const [title, setTitle] = useState("");
   const [poster, setPoster] = useState("");
   const [plot, setPlot] = useState("");
+  const[rating, setRating] = useState("")
   const [newMovie, setNewMovie] = useState({});
   const [genre, setGenre] = useState([]);
   console.log("From form: ", displayMovies);
@@ -29,6 +30,9 @@ function Form({ contextValue }) {
   function handlePlotChange(e) {
     setPlot(e.target.value);
   }
+  function handleRatingChange(e) {
+    setRating(e.target.value);
+  }
 
   function handleGenresChange(e) {
     const selectedOptions = Array.from(
@@ -40,18 +44,20 @@ function Form({ contextValue }) {
 
   function handleNewMovieSubmit(e) {
     e.preventDefault();
-    if (title !== "" && poster !== "" && plot !== "" && genre.length > 0) {
+    if (title !== "" && poster !== "" && plot !== "" && rating !== "" &&genre.length > 0) {
       const submittedMovie = {
         title: title,
         genre: genre,
         plotSummary: plot,
         image: poster,
+        imdbRating: parseFloat(rating),
         likes: 0,
       };
       setTitle("");
       setPlot("");
       setPoster("");
       setGenre([]);
+      setRating("")
       setNewMovie(submittedMovie);
       fetch("http://localhost:3000/movies", {
         method: "POST",
@@ -64,7 +70,7 @@ function Form({ contextValue }) {
         .then((newMovie) => setDisplayMovies([...displayMovies, newMovie]))
         .catch((error) => console.error(error));
     } else {
-      alert("PLS DON'T LEAVE BLANKS DANKE!");
+      alert("PLS DON'T LEAVE BLANKS! MERCI!");
     }
   }
 
@@ -95,6 +101,13 @@ function Form({ contextValue }) {
               onChange={handlePlotChange}
               value={plot}
             />
+            <input
+              type="text"
+              name="imdbRating"
+              placeholder="IMDB Rating"
+              onChange={handleRatingChange}
+              value={rating}
+            />
             <select multiple onChange={handleGenresChange}>
               {genres.map((genre) => (
                 <option key={genre} value={genre}>
@@ -105,10 +118,7 @@ function Form({ contextValue }) {
             <button type="submit">Add Movie</button>
             <br />
             <p>Search by entering the title: </p>
-            <input
-              placeholder="Enter title..."
-              onChange={handleSearchChange}
-            />
+            <input placeholder="Enter title..." onChange={handleSearchChange} />
           </form>
         </div>
       </div>

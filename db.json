@@ -216,36 +216,16 @@
       "imdbRating": 6.6
     },
     {
-      "id": "2ec0",
-      "title": "Godzilla vs. Kong 2",
+      "id": "4dc2",
+      "title": "King Kong ",
       "genre": [
-        "Action",
+        "Adventure",
         "Sci-Fi"
       ],
-      "plotSummary": "Kong beats Gojira part 2",
-      "image": "https://posters.movieposterdb.com/23_12/2024/14539740/l_godzilla-vs-kong-2-movie-poster_36cbe84e.jpg",
-      "likes": 9
-    },
-    {
-      "id": "6977",
-      "title": "Sal Strikes Again",
-      "genre": [
-        "Comedy"
-      ],
-      "plotSummary": "Vulcano",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROY-CTo0A7xzRw2z7muaWyIiDe7gxhBs-jirt-I0fkjA&s",
-      "likes": 8
-    },
-    {
-      "id": "ab17",
-      "title": "Jurassic Park 3",
-      "genre": [
-        "Action",
-        "Sci-Fi"
-      ],
-      "plotSummary": "Survivors of previous Jurassic Park encounters return to the island to rescue a boy who's stranded there, but encounter new dangers.",
-      "image": "https://www.movieposters.com/cdn/shop/products/A70-11470_480x.progressive.jpg?v=1578927251",
-      "likes": 0
+      "plotSummary": "Adventurers discover a giant ape on a remote island, capture it, and bring it back to New York City, where it escapes and wreaks havoc before meeting a tragic fate atop the Empire State Building",
+      "image": "https://www.movieposters.com/cdn/shop/products/6f435fde73a2173524187ea15e8ec786_107a6989-b0d5-4556-abc9-b6eeb24b8f2b_480x.progressive.jpg?v=1573651192",
+      "imdbRating": 7.2,
+      "likes": 6
     }
   ]
 }

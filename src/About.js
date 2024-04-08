@@ -9,7 +9,8 @@ function About() {
       <NavBar />
       <div className="about">
         <p>
-        Stuck in a movie maze with your crew? Fret not! This app is here to rescue your movie night from eternal indecision! 🎬✨
+          Stuck in a movie maze with your crew? Fret not! This app is here to
+          rescue your movie night from eternal indecision! 🎬✨
         </p>
       </div>
     </div>

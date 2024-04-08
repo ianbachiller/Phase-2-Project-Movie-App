@@ -1,14 +1,12 @@
 import React from "react";
 import MovieCard from "./MovieCard";
-import "./index.css"; 
+import "./index.css";
 import Header from "./Header";
 import NavBar from "./NavBar";
 import Form from "./Form";
 
-function MovieList({contextValue}) {
-  const { filteredMovies, displayMovies, setDisplayMovies } = contextValue
-  console.log(filteredMovies)
-  console.log(displayMovies)
+function MovieList({ contextValue }) {
+  const { filteredMovies, displayMovies, setDisplayMovies } = contextValue;
   const movieCards = filteredMovies.map((movie) => (
     <MovieCard
       key={movie.id}
@@ -23,15 +21,13 @@ function MovieList({contextValue}) {
   ));
 
   return (
-    
     <div>
       <Header />
       <NavBar />
-      <Form contextValue={contextValue}/>
-      <div className="movie-list-container">
-        {movieCards}
-      </div>
-    </div>);
+      <Form contextValue={contextValue} />
+      <div className="movie-list-container">{movieCards}</div>
+    </div>
+  );
 }
 
 export default MovieList;

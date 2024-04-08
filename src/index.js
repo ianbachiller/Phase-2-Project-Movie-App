@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client"; // Import createRoot from "react-dom/client"
+import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 import reportWebVitals from "./Tests/reportWebVitals.js"; // Make sure to import reportWebVitals if needed
