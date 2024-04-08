@@ -1,10 +1,14 @@
-import React, {useContext} from "react";
+import React from "react";
 import MovieCard from "./MovieCard";
 import "./index.css"; 
-import { MovieContext } from "./App";
+import Header from "./Header";
+import NavBar from "./NavBar";
+import Form from "./Form";
 
-function MovieList() {
-  const { filteredMovies, displayMovies, setDisplayMovies } = useContext(MovieContext);
+function MovieList({contextValue}) {
+  const { filteredMovies, displayMovies, setDisplayMovies } = contextValue
+  console.log(filteredMovies)
+  console.log(displayMovies)
   const movieCards = filteredMovies.map((movie) => (
     <MovieCard
       key={movie.id}
@@ -21,6 +25,9 @@ function MovieList() {
   return (
     
     <div>
+      <Header />
+      <NavBar />
+      <Form contextValue={contextValue}/>
       <div className="movie-list-container">
         {movieCards}
       </div>

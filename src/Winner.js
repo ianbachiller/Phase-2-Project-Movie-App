@@ -3,22 +3,18 @@ import MovieCard from "./MovieCard";
 import Header from "./Header";
 import NavBar from "./NavBar";
 
-function Winner() {
+function Winner({contextValue}) {
   const [winners, setWinners] = useState([]);
+  const{filteredMovies} = contextValue
+  console.log(filteredMovies)
 
   useEffect(() => {
-    fetch("http://localhost:3000/movies")
-      .then((resp) => resp.json())
-      .then((movies) => {
-        const highestLikes = Math.max(...movies.map((movie) => movie.likes));
-        const winningMovies = movies.filter(
+        const highestLikes = Math.max(...filteredMovies.map((movie) => movie.likes));
+        const winningMovies = filteredMovies.filter(
           (movie) => movie.likes === highestLikes
         );
-
         setWinners(winningMovies);
-      })
-      .catch((error) => console.error("Error fetching movies:", error));
-  }, []);
+  }, [filteredMovies]);
 
   return (
     <div>

@@ -10,7 +10,7 @@
       ],
       "plotSummary": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
       "image": "https://posters.movieposterdb.com/08_03/2008/371746/l_371746_4243f899.jpg",
-      "likes": 23,
+      "likes": 25,
       "imdbRating": 7.9
     },
     {
@@ -200,7 +200,7 @@
       ],
       "plotSummary": "\"Star Wars: Episode IV - A New Hope\" follows Luke Skywalker's journey as he discovers his connection to the Force, joins the Rebel Alliance, and helps destroy the Empire's superweapon, the Death Star. Alongside allies like Princess Leia, Han Solo, and Obi-Wan Kenobi, Luke battles the villainous Darth Vader and inspires hope in the galaxy by striking a major blow against the Empire.",
       "image": "https://posters.movieposterdb.com/12_05/1977/76759/l_76759_7ebdd9fc.jpg",
-      "likes": 0,
+      "likes": 6,
       "imdbRating": 8.6
     },
     {
@@ -224,7 +224,28 @@
       ],
       "plotSummary": "Kong beats Gojira part 2",
       "image": "https://posters.movieposterdb.com/23_12/2024/14539740/l_godzilla-vs-kong-2-movie-poster_36cbe84e.jpg",
-      "likes": 6
+      "likes": 9
+    },
+    {
+      "id": "6977",
+      "title": "Sal Strikes Again",
+      "genre": [
+        "Comedy"
+      ],
+      "plotSummary": "Vulcano",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROY-CTo0A7xzRw2z7muaWyIiDe7gxhBs-jirt-I0fkjA&s",
+      "likes": 8
+    },
+    {
+      "id": "ab17",
+      "title": "Jurassic Park 3",
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "plotSummary": "Survivors of previous Jurassic Park encounters return to the island to rescue a boy who's stranded there, but encounter new dangers.",
+      "image": "https://www.movieposters.com/cdn/shop/products/A70-11470_480x.progressive.jpg?v=1578927251",
+      "likes": 0
     }
   ]
 }

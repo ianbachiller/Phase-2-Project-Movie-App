@@ -1,22 +1,16 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import reportWebVitals from "./Tests/reportWebVitals.js";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-import routes from "./Routes.js";
-import App from "./App.js";
-import { MovieContext } from "./App.js";
-import contextValue from "./App"
-
-const router = createBrowserRouter(routes);
+import ReactDOM from "react-dom/client"; // Import createRoot from "react-dom/client"
+import { BrowserRouter as Router } from "react-router-dom";
+import App from "./App";
+import reportWebVitals from "./Tests/reportWebVitals.js"; // Make sure to import reportWebVitals if needed
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <MovieContext.Provider value={contextValue}>
-      <RouterProvider router={router} />
-    </MovieContext.Provider>
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>
 );
 

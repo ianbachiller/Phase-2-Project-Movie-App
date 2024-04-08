@@ -1,10 +1,7 @@
 import NavBar from "./NavBar";
-import { useRouteError } from "react-router-dom";
 import Header from "./Header"
 
 function ErrorPage() {
-  const error = useRouteError();
-  console.error(error);
 
   return (
     <>

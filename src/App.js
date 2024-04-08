@@ -1,11 +1,13 @@
-import React, { useEffect, useState, createContext } from "react";
+import React, { useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import MovieList from "./MovieList";
-import "./index.css";
-import NavBar from "./NavBar";
-import Header from "./Header";
 import Form from "./Form";
+import ErrorPage from "./ErrorPage";
+import Home from "./Home";
+import Winner from "./Winner";
+import Ratings from "./Ratings";
+import About from "./About";
 
-export const MovieContext = createContext();
 function App() {
   const [displayMovies, setDisplayMovies] = useState([]);
   const [search, setSearch] = useState("");
@@ -32,14 +34,17 @@ function App() {
   };
 
   return (
-    <div>
-      <MovieContext.Provider value={contextValue}>
-        <Header />
-        <NavBar />
-        <Form />
-        <MovieList />
-      </MovieContext.Provider>
-    </div>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/movies" element={<MovieList contextValue={contextValue}/>} />
+          <Route path="/form" element={<Form />} />
+          <Route path="/winner" element={<Winner contextValue={contextValue}/>} />
+          <Route path="/ratings" element={<Ratings contextValue={contextValue}/>} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </div>
   );
 }
 

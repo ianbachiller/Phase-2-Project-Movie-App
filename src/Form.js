@@ -1,19 +1,13 @@
-import { formGroupClasses } from "@mui/material";
-import React, { useState, useContext } from "react";
-import { MovieContext } from "./App";
-import NavBar from "./NavBar";
-import Header from "./Header"
-import MovieList from "./MovieList";
+import React, { useState } from "react";
 
-
-function Form() {
-  const { displayMovies, setDisplayMovies, handleSearchChange } = useContext(MovieContext);
+function Form({ contextValue }) {
+  const { displayMovies, setDisplayMovies, handleSearchChange } = contextValue;
   const [title, setTitle] = useState("");
   const [poster, setPoster] = useState("");
   const [plot, setPlot] = useState("");
   const [newMovie, setNewMovie] = useState({});
   const [genre, setGenre] = useState([]);
-console.log("From form: ", displayMovies)
+  console.log("From form: ", displayMovies);
   const genres = [
     "Action",
     "Adventure",
@@ -23,15 +17,19 @@ console.log("From form: ", displayMovies)
     "Sci-Fi",
     "Other",
   ];
+
   function handleTitleChange(e) {
     setTitle(e.target.value);
   }
+
   function handlePosterChange(e) {
     setPoster(e.target.value);
   }
+
   function handlePlotChange(e) {
     setPlot(e.target.value);
   }
+
   function handleGenresChange(e) {
     const selectedOptions = Array.from(
       e.target.selectedOptions,
@@ -69,6 +67,7 @@ console.log("From form: ", displayMovies)
       alert("PLS DON'T LEAVE BLANKS DANKE!");
     }
   }
+
   return (
     <div>
       <div className="form">
@@ -104,12 +103,12 @@ console.log("From form: ", displayMovies)
               ))}
             </select>
             <button type="submit">Add Movie</button>
-            <br></br>
+            <br />
             <p>Search by entering the title: </p>
             <input
               placeholder="Enter title..."
               onChange={handleSearchChange}
-            ></input>
+            />
           </form>
         </div>
       </div>

@@ -9,8 +9,7 @@ function About() {
       <NavBar />
       <div className="about">
         <p>
-          Have you and your friends or family been stuck on choosing which movie
-          to watch on movie night? Well, fret not! This app is for you!
+        Stuck in a movie maze with your crew? Fret not! This app is here to rescue your movie night from eternal indecision! 🎬✨
         </p>
       </div>
     </div>

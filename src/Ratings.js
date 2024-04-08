@@ -3,22 +3,18 @@ import Header from "./Header";
 import NavBar from "./NavBar";
 import MovieCard from "./MovieCard";
 
-function Ratings() {
+function Ratings({contextValue}) {
   const [ratings, setRatings] = useState([]);
+  const{ filteredMovies} = contextValue
 
   useEffect(() => {
-    fetch("http://localhost:3000/movies")
-      .then((resp) => resp.json())
-      .then((data) => {
-        const imdbRatings = data.map((movie) => (
+        const imdbRatings = filteredMovies.map((movie) => (
           <div key={movie.id}>
             <h1>{movie.title}: {movie.imdbRating}</h1>
           </div>
         ));
         setRatings(imdbRatings);
-      })
-      .catch((error) => console.error("Error fetching ratings:", error));
-  }, []);
+  }, [filteredMovies]);
 
   return (
     <div className="ratings-container">
