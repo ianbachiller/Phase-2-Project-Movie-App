@@ -162,3 +162,11 @@ body {
 .header {
   animation: slide-in 0.5s ease-out forwards;
 }
+
+#duke5 {
+  max-width: 50%;
+  height: auto; 
+}
+
+
+

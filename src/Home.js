@@ -1,18 +1,19 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Header from "./Header";
-
+import duke5 from "./duke5.JPG"
 function Home() {
   return (
     <>
       <Header />
       <NavBar />
-      <h1 className="home">Welcome to Ian's movie voting app!</h1>
+      <h1 className="home">My dog happily welcomes you</h1>
       <div className="image-container">
         <img
-          id="welcomeDoggo"
-          src="https://c.tenor.com/rDNPdB5bOeEAAAAd/tenor.gif"
-          alt="Welcome Doggo"
+          id="duke5"
+          // src="https://c.tenor.com/rDNPdB5bOeEAAAAd/tenor.gif"
+          src= {duke5}
+          alt="duke5"
         />
       </div>
     </>

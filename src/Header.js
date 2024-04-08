@@ -9,9 +9,9 @@ function Header() {
   return (
     <div className="header">
       <h1 className="title" onClick={handleTitleClick}>
-        Movie Night!
+        Ciné
       </h1>
-      <h2 className="title">Where the movie with the most likes wins!</h2>
+      <h2 className="title">App that ends your movie indecision!</h2>
     </div>
   );
 }
