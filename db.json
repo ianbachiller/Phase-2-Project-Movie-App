@@ -10,7 +10,7 @@
       ],
       "plotSummary": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
       "image": "https://posters.movieposterdb.com/08_03/2008/371746/l_371746_4243f899.jpg",
-      "likes": 25,
+      "likes": 32,
       "imdbRating": 7.9
     },
     {
@@ -23,7 +23,7 @@
       ],
       "plotSummary": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
       "image": "https://posters.movieposterdb.com/13_02/2001/241527/l_241527_da927a3d.jpg",
-      "likes": 18,
+      "likes": 23,
       "imdbRating": 7.6
     },
     {
@@ -36,7 +36,7 @@
       ],
       "plotSummary": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
       "image": "https://posters.movieposterdb.com/14_07/2014/2015381/l_2015381_2a13ec7d.jpg",
-      "likes": 32,
+      "likes": 34,
       "imdbRating": 8
     },
     {
@@ -145,14 +145,14 @@
     },
     {
       "id": "54f9",
-      "title": "Jurassic Park 1",
+      "title": "Jurassic Park",
       "genre": [
         "Action",
         "Adventure",
         "Comedy"
       ],
       "plotSummary": "\"Jurassic Park\" is a thrilling science fiction adventure directed by Steven Spielberg, adapted from Michael Crichton's novel. Set on a remote island, it follows the story of a billionaire who creates a theme park populated by cloned dinosaurs. Chaos ensues when the park's security systems fail, unleashing the ancient creatures on unsuspecting visitors. Amidst breathtaking action sequences and groundbreaking visual effects, the film explores themes of hubris, the ethics of genetic engineering, and the fragility of humanity in the face of nature's raw power.",
-      "image": "https://posters.movieposterdb.com/05_08/1993/0107290/l_45298_0107290_be4e0db3.jpg",
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/f00bf346385235.58520f9022451.jpg",
       "likes": 34,
       "imdbRating": 8.1
     },
@@ -226,6 +226,18 @@
       "image": "https://www.movieposters.com/cdn/shop/products/6f435fde73a2173524187ea15e8ec786_107a6989-b0d5-4556-abc9-b6eeb24b8f2b_480x.progressive.jpg?v=1573651192",
       "imdbRating": 7.2,
       "likes": 6
+    },
+    {
+      "id": "1f37",
+      "title": "Jurassic Park 3",
+      "genre": [
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "plotSummary": " A group of people stranded on Isla Sorna must escape from the island after a T-rex attack",
+      "image": "https://m.media-amazon.com/images/I/81T1QSM8ZoL._AC_UF894,1000_QL80_.jpg",
+      "imdbRating": 5.9,
+      "likes": 3
     }
   ]
 }

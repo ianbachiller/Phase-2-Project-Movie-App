@@ -39,20 +39,15 @@ code {
 .form {
   text-align: center;
   border-radius: 20px;
-  /* Adjust the value to change the curvature */
   background-color: cornsilk;
-  /* Change the background color as needed */
   padding: 20px;
   margin: 5px;
 }
 
 .header {
   border-radius: 20px;
-  /* Adjust the value to change the curvature */
   background-color: black;
-  /* Change the background color as needed */
   padding: 20px;
-  /* Add padding for content inside the container */
   margin: 5px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
@@ -60,11 +55,8 @@ code {
 
 .movie-list-container {
   border-radius: 20px;
-  /* Adjust the value to change the curvature */
   background-color: cornsilk;
-  /* Change the background color as needed */
   padding: 20px;
-  /* Add padding for content inside the container */
   margin: 5px;
 }
 
@@ -108,11 +100,7 @@ h1 {
   margin: 5px;
 }
 
-.image-container {
-  text-align: center;
-  flex: auto;
-  background-color: cornsilk;
-}
+
 
 .winner-movie-container {
   display: flex;
@@ -162,11 +150,19 @@ body {
 .header {
   animation: slide-in 0.5s ease-out forwards;
 }
+.image-container {
+  text-align: center;
+  flex: auto;
+  background-color: cornsilk;
+}
 
 #duke5 {
-  max-width: 50%;
+  width: 50%;
   height: auto; 
+  text-align: center;
 }
+
+
 
 
 
