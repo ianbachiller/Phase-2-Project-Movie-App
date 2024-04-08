@@ -99,6 +99,7 @@ code {
 h1 {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .error-page {
@@ -161,8 +162,3 @@ body {
 .header {
   animation: slide-in 0.5s ease-out forwards;
 }
-
-
-
-
-

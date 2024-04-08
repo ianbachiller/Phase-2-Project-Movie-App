@@ -9,6 +9,7 @@ function MovieCard({
   id,
   displayMovies,
   setDisplayMovies,
+  trailer,
 }) {
   function handleLikeClick() {
     fetch(`http://localhost:3000/movies/${id}`, {
@@ -29,6 +30,7 @@ function MovieCard({
         setDisplayMovies(updatedMovies);
       });
   }
+
   return (
     <Card sx={{ maxWidth: 300, marginBottom: 2, padding: 2 }}>
       <CardMedia component="img" image={image} alt={title} />

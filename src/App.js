@@ -34,17 +34,26 @@ function App() {
   };
 
   return (
-      <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/movies" element={<MovieList contextValue={contextValue}/>} />
-          <Route path="/form" element={<Form />} />
-          <Route path="/winner" element={<Winner contextValue={contextValue}/>} />
-          <Route path="/ratings" element={<Ratings contextValue={contextValue}/>} />
-          <Route path="/about" element={<About />} />
-          <Route path="*" element={<ErrorPage />} />
-        </Routes>
-      </div>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/movies"
+          element={<MovieList contextValue={contextValue} />}
+        />
+        <Route path="/form" element={<Form />} />
+        <Route
+          path="/winner"
+          element={<Winner contextValue={contextValue} />}
+        />
+        <Route
+          path="/ratings"
+          element={<Ratings contextValue={contextValue} />}
+        />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </div>
   );
 }
 

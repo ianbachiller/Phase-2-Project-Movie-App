@@ -8,7 +8,6 @@ function Form({ contextValue }) {
   const[rating, setRating] = useState("")
   const [newMovie, setNewMovie] = useState({});
   const [genre, setGenre] = useState([]);
-  console.log("From form: ", displayMovies);
   const genres = [
     "Action",
     "Adventure",

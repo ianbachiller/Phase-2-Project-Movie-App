@@ -3,17 +3,19 @@ import MovieCard from "./MovieCard";
 import Header from "./Header";
 import NavBar from "./NavBar";
 
-function Winner({contextValue}) {
+function Winner({ contextValue }) {
   const [winners, setWinners] = useState([]);
-  const{filteredMovies} = contextValue
-  console.log(filteredMovies)
+  const { filteredMovies } = contextValue;
+  console.log(filteredMovies);
 
   useEffect(() => {
-        const highestLikes = Math.max(...filteredMovies.map((movie) => movie.likes));
-        const winningMovies = filteredMovies.filter(
-          (movie) => movie.likes === highestLikes
-        );
-        setWinners(winningMovies);
+    const highestLikes = Math.max(
+      ...filteredMovies.map((movie) => movie.likes)
+    );
+    const winningMovies = filteredMovies.filter(
+      (movie) => movie.likes === highestLikes
+    );
+    setWinners(winningMovies);
   }, [filteredMovies]);
 
   return (
