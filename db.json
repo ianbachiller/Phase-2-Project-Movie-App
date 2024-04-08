@@ -10,7 +10,7 @@
       ],
       "plotSummary": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
       "image": "https://posters.movieposterdb.com/08_03/2008/371746/l_371746_4243f899.jpg",
-      "likes": 9,
+      "likes": 23,
       "imdbRating": 7.9
     },
     {
@@ -23,7 +23,7 @@
       ],
       "plotSummary": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
       "image": "https://posters.movieposterdb.com/13_02/2001/241527/l_241527_da927a3d.jpg",
-      "likes": 16,
+      "likes": 18,
       "imdbRating": 7.6
     },
     {
@@ -36,7 +36,7 @@
       ],
       "plotSummary": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
       "image": "https://posters.movieposterdb.com/14_07/2014/2015381/l_2015381_2a13ec7d.jpg",
-      "likes": 31,
+      "likes": 32,
       "imdbRating": 8
     },
     {
@@ -214,6 +214,17 @@
       "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5bPS10MhtlypMPBkrP988LefTvMkPW6-CBKlSrk3MxZPatqGCZmgAxW5gow9GQ67MNVYdig",
       "likes": 34,
       "imdbRating": 6.6
+    },
+    {
+      "id": "2ec0",
+      "title": "Godzilla vs. Kong 2",
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "plotSummary": "Kong beats Gojira part 2",
+      "image": "https://posters.movieposterdb.com/23_12/2024/14539740/l_godzilla-vs-kong-2-movie-poster_36cbe84e.jpg",
+      "likes": 6
     }
   ]
 }
